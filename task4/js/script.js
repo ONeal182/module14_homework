@@ -1,7 +1,7 @@
 function ElectricalDevices(name) {
     this.name = name
     this.getPriority = function(priority){
-        console.log(`Priority is ${priority}`)
+        console.log(`Priority is ${priority}`);
       }
 }
 ElectricalDevices.prototype.devicesState = function () {
